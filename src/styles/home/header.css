@@ -1,0 +1,97 @@
+.homePage .header {
+  font-family: "Stolzl";
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.homePage .header-img {
+  text-align: right;
+}
+.homePage .header-img img {
+  width: 100%;
+}
+.homePage .header-content {
+  position: relative;
+  top: 150px;
+  padding: 0px 150px;
+}
+.homePage .header-content h1 {
+  font-weight: 400;
+  font-size: 56px;
+  color: #fff;
+}
+.homePage .header-content p {
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 120px;
+  color: #999;
+}
+.homePage .header-content-word-shaking {
+  color: #d96a2c;
+}
+
+@media screen and (max-width: 1210px) {
+  .homePage .header-content {
+    padding: 0px 50px;
+  }
+  .homePage .header-content h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .homePage .header-content h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .homePage .header-content {
+    padding: 0px 30px;
+    top: 100px;
+  }
+  .homePage .header-content h1 {
+    font-size: 25px;
+  }
+  .download-btns img {
+    width: 40%;
+  }
+  .homePage .header-content p {
+    padding-left: 45px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .homePage .header-content {
+    padding: 0px 20px;
+    top: 60px;
+  }
+  .homePage .header-content h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .homePage .header {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 22px;
+  }
+  .homePage .header-content {
+    padding: 0px 20px;
+    top: 0px;
+  }
+  .homePage .header-img img {
+    margin-top: 2rem;
+  }
+  .homePage .header-content h1 {
+    font-size: 40px;
+  }
+  .homePage .header-content p {
+    padding: 0px;
+    text-align: center;
+  }
+  .download-btns img {
+    width: 49%;
+  }
+}
